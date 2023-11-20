@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpHub - Home</title>
+</head>
+<nav>
+            <ul>
+                <li><a href="charity.html">Home</a></li>
+                <li><a href="charity1.html">Charities List</a></li>
+                <li><a href="charity2.html">Charity Profile</a></li>
+            </ul>
+        </nav>
+
+<body>
+    <header>
+        <h1>Welcome to HelpHub</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="charities.html">Charities List</a></li>
+                <li><a href="charity_profile.html">Charity Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <main>
+        <!-- Content of your homepage goes here -->
+        <p>HelpHub is a website that connects volunteers with local charities in their area.</p>
+        <p> Explore our page let us connect you with a charity that you will love!</p>
+    </main>
+
+    <footer>
+        <!-- Footer content goes here -->
+        <p>&copy; 2023 HelpHub. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpHub - Charities List</title>
+</head>
+<nav>
+            <ul>
+                <li><a href="charity.html">Home</a></li>
+                <li><a href="charity1.html">Charities List</a></li>
+                <li><a href="charity2.html">Charity Profile</a></li>
+            </ul>
+        </nav>
+
+    <main>
+        <!-- Content of your charities list page goes here -->
+        <h1>This is the charities list page .</h1>
+
+      <p> ST Jude Children Research Hospital <p>
+      <p> ST Jude is a children research hospital is a pediatric treatment and research facility located in Memphis Tennessee that focus on children catastrophic disease</p>
+
+       <a href="https://www.stjude.org/" target="_blank"><button>Click me to see charity </button></a>
+
+ <p> Safe Horizon</p>
+ <p> Safe Horizon was found in New York City to provide compassionate and expert support for victims of crime. </p>
+<a href="https://www.safehorizon.org/" target="_blank"><button>Click me to see charity</button></a>
+
+<p>Save The Children</p>
+<p>Save the Children is working around the clock to deliver lifesaving aid to children in the U.S. and around the world </p>
+<a href="https://support.savethechildren.org/site/Donation2?df_id=10126&10126.donation=form1&mfc_pref=T&monthly=false&cid=Paid_Search:Bing_Paid:Annual_GT:Brand:111023&s_kwcid=AL!9048!3!!p!!o!!save%20children%20charity%20donate&gclid=5e8a407448301b73f1e4252efa999e2d&gclsrc=3p.ds&msclkid=5e8a407448301b73f1e4252efa999e2d" target="_blank"><button>Click me to see charity</button></a>
+
+    </main>
+
+    <footer>
+        <!-- Footer content goes here -->
+        <p>&copy; 2023 HelpHub. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
+
+
+<body>
+    <header>
+        <h1>Charity Profile</h1>
+        <nav>
+            <ul>
+                <li><a href="charity.html">Home</a></li>
+                <li><a href="charity1.html">Charities List</a></li>
+                <li><a href="charity2.html">Charity Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Content of your charity profile page goes here -->
+        <p>This is the charity profile page content.</p>
+
+        <!-- Volunteer Now Button -->
+        <button id="volunteerNowBtn" onclick="showVolunteerForm()">Volunteer Now</button>
+
+        <!-- Volunteer Form (Initially Hidden) -->
+        <form id="volunteerForm" style="display: none;">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" required>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <!-- You may include additional content or customize as needed -->
+    </main>
+
+    <footer>
+        <!-- Footer content goes here -->
+        <p>&copy; 2023 HelpHub. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // JavaScript function to show the volunteer form
+        function showVolunteerForm() {
+            var volunteerForm = document.getElementById("volunteerForm");
+            volunteerForm.style.display = "block";
+        }
+    </script>
+</body>
+
